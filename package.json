@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "playwright1": "npx playwright test"
+    "test:pl": "npx playwright test tests/redmine.spec.js",
+    "test:pl-ui": "npx playwright test tests/redmine.spec.js --ui",
+    "test:pl-headed": "npx playwright test tests/redmine.spec.js --headed",
+    "test:pl-headless": "npx playwright test tests/redmine.spec.js --headless",
+    "test:report": "npx playwright show-report",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Executing tests using Playwright test framework on the website redmine.org. Technologies used: Node.js, Java SDK, Git Bash, Playwritght, Allure reports",
   "devDependencies": {
     "@playwright/test": "^1.49.0",
-    "@types/node": "^22.9.0"
+    "@types/node": "^22.9.0",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.6"
   },
   "dependencies": {
     "cypress": "^13.16.0",

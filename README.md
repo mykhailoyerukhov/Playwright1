@@ -31,3 +31,5 @@ Install dependencies.
 
     How to update Playwright:
     `npm install -D @playwright/test@latest`
+
+Install Allure

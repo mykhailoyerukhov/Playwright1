@@ -25,3 +25,9 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+
+    - name: Generate Allure Report
+        run: |
+          allure generate allure-results --clean
+          allure open allure-report
+        if: always()

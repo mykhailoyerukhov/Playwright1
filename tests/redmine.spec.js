@@ -66,9 +66,6 @@ test('#41785 in the feature section can be found', async ({page}) => {
     expect(subjectText).toContainText('Add flag in \'Settings\' to apply default issues list view to subtasks')
 })
 
-
-
-
 test('checks users activity of a user Go MAEDA, using filters and dropdown menu', async ({page}) => {
   // Go to redmine.org
   await page.goto('https://www.redmine.org/'); 
@@ -81,3 +78,19 @@ test('checks users activity of a user Go MAEDA, using filters and dropdown menu'
   await page.selectOption('//select[@id="user_id"]', '')
 })
 
+test('Пример теста с Allure', async ({ page }) => {
+  await test.step('Открытие главной страницы', async () => {
+    await page.goto('https://example.com');
+  });
+
+  await test.step('Проверка заголовка', async () => {
+    const title = await page.title();
+    expect(title).toBe('Example Domain');
+  });
+
+  test.info().attachments.push({
+    name: 'Скриншот страницы',
+    path: await page.screenshot({ path: 'screenshot.png' }),
+    contentType: 'image/png',
+  });
+});

@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14349","To register on a website","chromium","Sun Nov 24 11:27:54 IST 2024","passed","Sun Nov 24 11:28:08 IST 2024","","redmine.spec.js","",""
+"","844","Пример теста с Allure","chromium","Sun Nov 24 11:28:14 IST 2024","passed","Sun Nov 24 11:28:15 IST 2024","","redmine.spec.js","",""
+"","7575","to log in","chromium","Sun Nov 24 11:27:54 IST 2024","passed","Sun Nov 24 11:28:01 IST 2024","","redmine.spec.js","",""
+"","4199","Chech Overview is visible","chromium","Sun Nov 24 11:28:09 IST 2024","passed","Sun Nov 24 11:28:13 IST 2024","","redmine.spec.js","",""
+"","5993","search enginer search correct results","chromium","Sun Nov 24 11:28:03 IST 2024","passed","Sun Nov 24 11:28:09 IST 2024","","redmine.spec.js","",""
+"","3931","checks users activity of a user Go MAEDA, using filters and dropdown menu","chromium","Sun Nov 24 11:28:14 IST 2024","passed","Sun Nov 24 11:28:18 IST 2024","","redmine.spec.js","",""
+"","4471","#41785 in the feature section can be found","chromium","Sun Nov 24 11:28:09 IST 2024","passed","Sun Nov 24 11:28:14 IST 2024","","redmine.spec.js","",""
